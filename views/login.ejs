@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Abril Fatface', cursive;
+font-family: 'Instrument Serif', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Prata', serif;
+font-family: 'PT Serif', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Serif Pro', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card  bg-light w-25 p-5 container-fluid " style="position: relative; top: 50px;">
+        
+        <form action="/login" method="POST" class=" container m-2">
+            <h2 class="container-fluid ">Inicio de sesión</h2>
+            <hr >
+            <label for="email" class="container-fluid ">Email:</label>
+            <input type="email" name="username" id="" class="container-fluid p-lg-2 rounded-3 border-secondary  mb-3">
+            <label for="password" class="container-fluid">Contraseña:</label>
+            <input type="password" name="password" id="" class="container-fluid p-lg-2 rounded-3 border-secondary mb-3">
+            <input type="submit" value="Enviar" class="w-100 p-lg-2 text-light h5 border-1 bg-success rounded-2 mb-3">
+            <a href="#" class="text-secondary text-decoration-none mb-3">¿Olvidaste tu contraseña?<samp
+                    class="text-danger m-1 mb-3">Solicitar</samp></a>
+            <a href="#" class="text-secondary text-decoration-none mb-3"> ¿No tienes cuenta?<samp
+                    class="text-danger m-1 mb-3">Registrate</samp></a>
+        </form>
+    </div>
+
+</body>
+
+</html>
